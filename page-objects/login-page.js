@@ -16,7 +16,6 @@ class LoginPage {
   }
 
   async verifyLoginPageIsDisplayed() {
-    // return expect(page).toHaveTitle('Swag Labs');
     return expect(await page.title()).toBe('ParaBank | Welcome | Online Banking');
   }
 
